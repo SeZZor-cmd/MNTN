@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <motion.div 
-    className='fixed top-0 left-0 right-0 z-50' style={{ width: '1550px', height: '80px' }}>
+    className='fixed top-0 left-0 right-0 z-50' style={{ width: '1550px', height: '100px', margin:'10px' }}>
       <div className="flex justify-between items-center" style={{ width: '1400px', margin: '0 auto' }}>
         {/* Logo */}
         <Image src="/images/Logo.png" width={104} height={24} alt="Logo" className='ml-4' />
