@@ -2,7 +2,7 @@
 
 import { Image } from "./Image"; // Import the Image component
 import { imageDetails } from "../data/Details"; // Import image data
-import Link from 'next/link';
+
 
 export default function Section() {
   return (
